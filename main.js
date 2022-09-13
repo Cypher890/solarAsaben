@@ -9,7 +9,7 @@ let main = document.querySelector('#main')
 
 planetData = [{ Earth: 9.8, src: "images/Earth.png" }, { Mercury: 3.59, src: "images/Mercury.png" }, { Venus: 8.87, src: "images/Venus.png" },
 { Mars: 3.7, src: "images/Mars.png" }, { Jupiter: 24.5, src: "images/Jupiter.png" }, { Saturn: 11.08, src: "images/Saturn.png" },
-{ Uranus: 10.67, src: "images/Uranus.png" }, { Neptune: 14.07, src: "images/Neptune.png" }, { Moon: 1.6, src: "images/Moon.png" }]
+{ Uranus: 10.67, src: "images/Uranus.png" }, { Neptune: 14.07, src: "images/Neptune.png" }, { Moon: 1.6, src: "images/moon.png" }]
 
 calculate.addEventListener('click', function () {
     var inputValue = input.value;
